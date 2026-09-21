@@ -18,16 +18,16 @@ public class Pedido {
     }
 
     public double calcularDesconto() {
-        double desconto = 1;
+        double porcentagem = 1;
         if (calcularSubtotal() < 100) {
-            desconto = 1.0;
+            porcentagem = 1.0;
         } else if (calcularSubtotal() >= 100 && calcularSubtotal() <= 199.99) {
-            desconto = 0.95;
+            porcentagem = 0.95;
         } else if (calcularSubtotal() >= 200) {
-            desconto = 0.90;
+            porcentagem = 0.90;
         }
 
-        return desconto;
+        return porcentagem;
     }
 
     public double calcularTotal() {
