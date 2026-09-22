@@ -6,7 +6,7 @@ public class Main {
         Aluno aluno2 = new Aluno("Marcus Emanuel", 20262);
         Aluno aluno3 = new Aluno("Ryan Soares", 20263);
         Aluno aluno4 = new Aluno("Guilherme Savio", 20264);
-        Aluno aluno5 = new Aluno("Ruan Kelvin", 20265);
+        Aluno aluno5 = new Aluno("Ruan Kelvy", 20265);
 
 
        System.out.println("Aluno: " + aluno1.nome + " --- Média: " + aluno1.calcularMedia(6, 6, 6, 6));
