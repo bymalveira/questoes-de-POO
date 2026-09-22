@@ -27,7 +27,7 @@ public class Main {
             System.out.println("10 - Sair");
             System.out.print("Escolha uma opção: ");
             opcao = scanner.nextInt();
-            scanner.nextLine(); // limpa o \n que sobra do nextInt()
+            scanner.nextLine(); 
 
             switch (opcao) {
                 case 1:
